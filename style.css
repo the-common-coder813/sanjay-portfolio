@@ -2076,3 +2076,72 @@ i {
 .reveal.delay-4 {
     transition-delay: 0.4s;
 }
+
+/* ==========================================================================
+   PERSONAL BRANDING & INLINE LINKS
+   ========================================================================== */
+.text-link {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: underline;
+    transition: var(--transition-fast);
+}
+
+.text-link:hover {
+    color: var(--primary-hover);
+}
+
+.branding-section {
+    background-color: var(--bg-main);
+    padding: 60px 0;
+}
+
+.branding-box {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.03) 0%, rgba(59, 130, 246, 0.05) 100%);
+    border: 1px solid rgba(37, 99, 235, 0.1);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.branding-icon {
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.branding-icon i {
+    width: 48px;
+    height: 48px;
+}
+
+.branding-title {
+    font-size: 1.6rem;
+    margin-bottom: 14px;
+    color: var(--secondary);
+    font-family: var(--font-heading);
+}
+
+.branding-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text-main);
+    margin-bottom: 28px;
+}
+
+.branding-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+    .branding-box {
+        padding: 30px 20px;
+    }
+    .branding-links .btn {
+        width: 100%;
+    }
+}
