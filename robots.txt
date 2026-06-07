@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://the-common-coder813.github.io/sanjay-portfolio/sitemap.xml
